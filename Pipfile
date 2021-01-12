@@ -12,3 +12,8 @@ requests = "*"
 
 [requires]
 python_version = "3.6"
+pip install pipenv
+pipenv install --skip-lock
+pipenv run python -m ipykernel install --user --name=czango
+pipenv run python handle_matplotlib_chinese.py
+jupyter notebook
